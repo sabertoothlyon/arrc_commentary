@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Large Text Website</title>
+    <style>
+        /* Clean, readable typography */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Responsive header */
+        header {
+            background-color: #fff;
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        /* Navigation styling */
+        nav {
+            margin: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: 500;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav li a:hover {
+            background-color: #e8f4fc;
+        }
+
+        /* Main content area optimized for large text */
+        main {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        /* Article/section styling for content organization */
+        article, section {
+            margin-bottom: 40px;
+        }
+
+        /* Typography enhancements for readability */
+        h2, h3, h4 {
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.4em;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        /* Content container with scrollable sections if needed */
+        .content-container {
+            max-height: 600px;
+            overflow-y: auto;
+            padding-right: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Table of contents for navigation in large documents */
+        .table-of-contents {
+            background-color: #f5f7fa;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 30px;
+        }
+
+        .table-of-contents h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+
+        .table-of-contents ul {
+            padding-left: 20px;
+        }
+
+        .table-of-contents a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            main {
+                padding: 20px;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            .content-container {
+                max-height: none;
+                overflow-y: visible;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Large Text Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li><a href="#section4">Section 4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="table-of-contents">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#section1">Section 1: Introduction</a></li>
+                <li><a href="#section2">Section 2: Main Content</a>
+                    <ul>
+                        <li><a href="#subsection2-1">Subsection 2.1</a></li>
+                        <li><a href="#subsection2-2">Subsection 2.2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#section3">Section 3: Additional Information</a></li>
+                <li><a href="#section4">Section 4: Conclusion</a></li>
+            </ul>
+        </div>
+
+        <section id="section1">
+            <h2>Section 1: Introduction</h2>
+            <p>This website template is designed to accommodate large amounts of text content while maintaining readability and organization. Feel free to replace this placeholder text with your actual content.</p>
+            <p>The layout includes features like:</p>
+            <ul>
+                <li>Clean typography optimized for reading</li>
+                <li>Responsive design that works on all devices</li>
+                <li>Navigation system with table of contents</li>
+                <li>Scrollable content sections for lengthy text</li>
+                <li>Organized heading structure for better content hierarchy</li>
+            </ul>
+        </section>
+
+        <section id="section2">
+            <h2>Section 2: Main Content</h2>
+            <p>This is where your main content would go. The site can handle very large amounts of text while maintaining readability through proper spacing, line height, and font choices.</p>
+            
+            <div class="content-container">
+                <h3 id="subsection2-1">Subsection 2.1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+                
+                <p>Mauris sollicitudin fermentum libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla.</p>
+                
+                <h3 id="subsection2-2">Subsection 2.2</h3>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris.</p>
+                
+                <p>Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum.</p>
+                
+                <!-- Add more paragraphs as needed -->
+                <p>Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada.</p>
+                
+                <p>Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci.</p>
+            </div>
+        </section>
+
+        <section id="section3">
+            <h2>Section 3: Additional Information</h2>
+            <p>This section demonstrates how the website handles different types of content organization. For very large documents, you might want to break content into multiple pages instead of putting everything on one page.</p>
+            
+            <div class="content-container">
+                <p>Fusce pharetra convallis urna. Quisque ut nisi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl sit amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit.</p>
+                
+                <p>Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. Phasellus a est.</p>
+                
+                <p>Phasellus magna. In hac habitasse platea dictumst. Aliquam erat volutpat. Curabitur at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. Nullam vel sem.</p>
+                
+                <p>Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi.</p>
+            </div>
+        </section>
+
+        <section id="section4">
+            <h2>Section 4: Conclusion</h2>
+            <p>This basic website template provides a solid foundation for displaying large amounts of text content in a readable and organized manner. You can customize styles, add more sections, or incorporate additional features as needed for your specific requirements.</p>
+            
+            <p>The structure includes:</p>
+            <ul>
+                <li>A clean header with navigation</li>
+                <li>A table of contents for quick navigation</li>
+                <li>Multiple content sections with proper heading hierarchy</li>
+                <li>Scrollable content containers for lengthy sections</li>
+                <li>Responsive design that adjusts to different screen sizes</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Large Text Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
